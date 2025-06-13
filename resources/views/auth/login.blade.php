@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main class="pt-90">
+<main class="pt-60">
     <div class="mb-4 pb-4"></div>
     <section class="login-register container">
       <ul class="nav nav-tabs mb-5" id="login_register" role="tablist">
