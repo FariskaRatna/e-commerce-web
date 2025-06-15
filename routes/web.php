@@ -39,4 +39,5 @@ Route::middleware(['auth', AuthAdmin::class])->group(function(){
     // Products
     Route::get('/admin/products', [AdminController::class, 'products'])->name('admin.products');
     Route::get('/admin/product/add', [AdminController::class, 'add_product'])->name('admin.product.add');
+    Route::post('/admin/product/store', [AdminController::class, 'product_store'])->name('admin.product.store');
 });
